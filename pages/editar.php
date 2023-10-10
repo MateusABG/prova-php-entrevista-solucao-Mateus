@@ -4,11 +4,14 @@
     <title>Editar</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" href="../icons/icon.png"/>
 </head>
 
 <header name="header" class="header">
-    <img src="https://www.versotech.com.br/wp-content/themes/bones/library/images/logotipo.svg" />
-    <link rel="icon" href="https://www.versotech.com.br/wp-content/uploads/2022/10/cropped-icone-logo-32x32.png" sizes="32x32">
+    <div name="dados" class="dados">
+        <i class="child icon fa fa-book" aria-hidden="true"></i>
+        <p class="child">Teste de conhecimentos PHP + Banco de dados</p>
+    </div>
 </header>
 
 <main>
@@ -58,8 +61,7 @@
     </div>
 
     <div class="footer">
-        <p> Feito por <a href="https://www.linkedin.com/in/mateus-alves-bittencourt-gaut%C3%A9rio-2b329214a/"
-                style="text-decoration:none;color:black;"><b>Mateus Alves Bittencourt Gautério</b></a> @ Outubro de 2023
+        <p> Feito por <a href="https://www.linkedin.com/in/mateus-alves-bittencourt-gaut%C3%A9rio-2b329214a/"><b>Mateus Alves Bittencourt Gautério</b></a> @ Outubro de 2023
         </p>
     </div>
 </main>

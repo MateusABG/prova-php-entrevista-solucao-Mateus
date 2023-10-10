@@ -3,19 +3,23 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="icon" href="icons/icon.png"/>
     <script src="javascript/functions.js"></script>
 </head>
 
 <header class="header">
-    <img src="https://www.versotech.com.br/wp-content/themes/bones/library/images/logotipo.svg" class="imagem" />
-    <link rel="icon" href="https://www.versotech.com.br/wp-content/uploads/2022/10/cropped-icone-logo-32x32.png" sizes="32x32">
+    <div name="dados" class="dados">
+        <i class="child icon fa fa-book" aria-hidden="true"></i>
+        <p class="child">Teste de conhecimentos PHP + Banco de dados</p>
+    </div>
 </header>
 
 <main class="body">
     <div class="pageicon d-flex justify-content-between">
         <h3>Usuários</h3>
         <div class='button'>
-            <a href='pages/inserir_usuario.php' title="Adicionar novo usuário"> Adicionar novo usuário <i class='fa fa-plus-square' aria-hidden='true'></i></a>
+            <a href='pages/inserir_usuario.php' title="Adicionar novo usuário"> Adicionar novo usuário <i
+                    class='fa fa-plus-square' aria-hidden='true'></i></a>
         </div>
     </div>
     <div>
@@ -46,19 +50,19 @@
                                         <td>%s</td>
                                         <td>%s</td>
                                         <td>%s</td>
-                                        <td class='text-center'>
-                                            <a href='pages/editar.php?id=%s'><i class='fa fa-pencil' aria-hidden='true'></i></a>
-                                            <a href='pages/cores.php?id=%s'><i class='fa fa-paint-brush' aria-hidden='true'></i></a>
-                                            <a onclick=\"popUpConfirm('%s', %s)\" href='#'><i class='fa fa-trash' aria-hidden='true'></i></a>
+                                        <td class='text-center acoes'>
+                                            <a href='pages/editar.php?id=%s' title='Editar usuário'><i class='fa fa-pencil' aria-hidden='true'></i></a>
+                                            <a href='pages/cores.php?id=%s' title='Editar Cores do Usuário'><i class='fa fa-paint-brush' aria-hidden='true'></i></a>
+                                            <a onclick=\"popUpConfirm('%s', %s)\" href='#' title='Deletar usuário'><i class='fa fa-trash' aria-hidden='true'></i></a>
                                         </td>
                                     </tr>",
-                                    $user->id,
-                                    $user->name,
-                                    $user->email,
-                                    $user->id,
-                                    $user->id,
-                                    $user->name,
-                                    $user->id
+                            $user->id,
+                            $user->name,
+                            $user->email,
+                            $user->id,
+                            $user->id,
+                            $user->name,
+                            $user->id
                         );
                     }
 
@@ -69,8 +73,7 @@
         </div>
     </div>
     <div class="footer">
-        <p> Feito por <a href="https://www.linkedin.com/in/mateus-alves-bittencourt-gaut%C3%A9rio-2b329214a/"
-                style="text-decoration:none;color:black;"><b>Mateus Alves Bittencourt Gautério</b></a> @ Outubro de 2023
+        <p> Feito por <a href="https://www.linkedin.com/in/mateus-alves-bittencourt-gaut%C3%A9rio-2b329214a/"><b>Mateus Alves Bittencourt Gautério</b></a> @ Outubro de 2023
         </p>
     </div>
 </main>
