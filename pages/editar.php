@@ -3,11 +3,13 @@
 <head>
     <title>Editar</title>
     <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
-    <link rel="icon" href="../icons/icon.png"/>
+    <link rel="icon" href="../icons/icon.png" />
+    <script src="../javascript/functions.js"></script>
 </head>
 
-<header name="header" class="header">
+<header class="header">
     <div name="dados" class="dados">
         <i class="child icon fa fa-book" aria-hidden="true"></i>
         <p class="child">Teste de conhecimentos PHP + Banco de dados</p>
